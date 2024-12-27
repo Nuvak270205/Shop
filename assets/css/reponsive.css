@@ -35,7 +35,7 @@
     }
     .content__img{
         left: -890px;
-        bottom: 0;
+        bottom: -1px;
         top: unset;
     }
     .header__body .content{
@@ -72,6 +72,10 @@
     }
     .content .content__item{
         width: 360px;
+        padding: 40px 0;
+    }
+    .content__item .list__clothes{
+        padding: 40px 0;
     }
     .content__category .category__body,
     .content__item .content__item-heading{
@@ -79,12 +83,23 @@
     }
     .content__item .list__clothes{
         flex-wrap: wrap;
+        gap: 20px;
     }
     .content__item .clothes{
         width: calc(50% - 10px);
     }
+    .price{
+        flex-wrap: wrap;
+    }
+    .clothes__price,
     .clothes h4{
         font-size: 14px;
+    }
+    .clothes__price-old{
+        font-size: 12px;
+    }
+    .clothes__price-vat{
+        font-size: 10px;
     }
     .clothes .evaluate__icon{
         height: 15px;
@@ -160,6 +175,7 @@
     }
     .footer .footer__body-list{
         gap: 32px;
+        padding-top: 32px;
     }
     .footer .footer__body{
         width: 360px;
