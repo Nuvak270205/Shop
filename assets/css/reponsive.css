@@ -130,6 +130,9 @@
         right: 0;
         bottom: 0;
     }
+    .category__item-heading{
+        font-size: 24px;
+    }
     .content .content__feel{
         width: 360px;
         padding: 40px 0;
