@@ -153,7 +153,7 @@
     }
     .content .content__feel{
         width: 360px;
-        padding: 40px 0;
+        padding: 40px 0 210px 0;
     }
     .content__feel .feel__heading{
         font-size: 32px;
@@ -178,9 +178,6 @@
         height: auto;
         bottom: -150px;
     }
-    .content-substitute{
-        height: 150px;
-    }
     .content__contact .content__contact-body{
         padding: 32px 24px;
         height: 300px;
@@ -197,6 +194,9 @@
     .footer .footer__body-list{
         gap: 32px;
         padding-top: 32px;
+    }
+    .footer{
+        min-width: unset;
     }
     .footer .footer__body{
         width: 360px;
