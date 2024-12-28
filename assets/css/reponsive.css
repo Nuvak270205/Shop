@@ -4,6 +4,7 @@
 @media(max-width: 739px){
     .RegisterNow{
         font-size: 12px;
+        min-width: unset;
     }
     .RegisterNow-body{
         width: 360px;
@@ -30,17 +31,23 @@
     .lists__logo{
         font-size: 25px;
     }
-    .header__body .content{
-        width: 360px;
+    .header__body{
+        overflow: hidden;
+        height: 950px;
+    }
+    .content__img1,
+    .content__img2{
+        display: none;
     }
     .content__img{
-        left: -890px;
+        left: -680px;
         bottom: -1px;
         top: unset;
+        right: 0;
+        height: auto;
     }
     .header__body .content{
         width: 360px;
-        height: 1050px;
         justify-content: start;
         gap: 16px;
         padding: 40px 0;
@@ -56,11 +63,22 @@
     .content .content__btn{
         width: 100%;
     }
+    .content .content__information{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 85px;
+    }
+    .information__barrier{
+        display: none;
+    }
     .content__information .information__item-heading{
         font-size: 24px;
     }
     .content__information .information__item-node{
         font-size: 12px;
+    }
+    .header__footer{
+        min-width: unset;
     }
     .header__footer-img{
         width: 360px;
