@@ -47,6 +47,10 @@ body{
     font-size: 20px;
     display: none;
 }
+.lists__menu li:hover{
+    background-color: #ccc;
+    color: white;
+}
 .list__logo{
     display: flex;
     align-items: center;
@@ -59,13 +63,25 @@ body{
 }
 .lists__menu{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 24px;
     font-size: 16px;
     font-weight: 400;
     min-width: 350px;
+    height: 100%;
+    list-style-type: none;
 }
+.lists__menu li{
+    width: 22%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.lists__menu li:nth-child(1),
+.lists__menu li:nth-child(2){
+    width: 28%;
+}
+
 .lists__search{
     display: flex;
     flex: 1;
@@ -88,6 +104,12 @@ body{
     display: flex;
     font-size: 20px;
     gap: 14px;
+}
+.lists__icon i:hover{
+    color: #ccc;
+}
+.list__icon-circle:hover{
+    border: 2px solid #ccc;
 }
 .lists__icon .fa-search{
     display: none;
@@ -144,6 +166,10 @@ body{
     width: 210px;
     height: 52px;
     border-radius: 26px;
+}
+.content .content__btn:hover{
+    background-color: #ccc;
+    color: white;
 }
 .content .content__information{
     display: flex;
@@ -278,6 +304,10 @@ body{
     border-radius: 26px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.content__item-button .content__item-btn:hover{
+    background-color: #ccc;
+    color: white;
+}
 .content .content__item:first-child{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -403,7 +433,10 @@ body{
 .contact__button1{
     position: relative;
 }
-
+.contact__button2 .contact__input:hover{
+    background-color: #ccc;
+    color: white;
+}
 .contact__input{
     width: 100%;
     height: 100%;
