@@ -462,6 +462,7 @@ body{
 /* Phần footer */
 .footer{
     background-color: #f0f0f0;
+    min-width: 1240px;
 }
 
 .footer .footer__body{
