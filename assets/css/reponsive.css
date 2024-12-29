@@ -84,6 +84,7 @@
         width: 360px;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 40px 0;
     }
     .header__footer img{
         height: 26px;

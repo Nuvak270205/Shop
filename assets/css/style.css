@@ -219,7 +219,7 @@ body{
     gap: 20px;
     margin: 0 auto;
     width: 1240px;
-    padding: 40px 0;
+    padding: 40px 80px;
 }
 .header__footer img{
     width: auto;
