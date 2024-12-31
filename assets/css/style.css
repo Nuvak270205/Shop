@@ -44,7 +44,7 @@ body{
     background-color: white;
 }
 .list__logo-menu {
-    font-size: 20px;
+    font-size: 24px;
     display: none;
 }
 .lists__menu li:hover{
@@ -87,6 +87,7 @@ body{
     flex: 1;
     height: 48px;
     position: relative;
+    outline: none;
 }
 .search__input{
     flex:1;
@@ -102,7 +103,7 @@ body{
 }
 .lists__icon{
     display: flex;
-    font-size: 20px;
+    font-size: 24px;
     gap: 14px;
 }
 .lists__icon i:hover{
@@ -115,8 +116,8 @@ body{
     display: none;
 }
 .list__icon-circle{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid black;
@@ -166,6 +167,7 @@ body{
     width: 210px;
     height: 52px;
     border-radius: 26px;
+    cursor: pointer;
 }
 .content .content__btn:hover{
     background-color: #ccc;
@@ -303,6 +305,7 @@ body{
     background-color: transparent;
     border-radius: 26px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .content__item-button .content__item-btn:hover{
     background-color: #ccc;
@@ -438,10 +441,12 @@ body{
     padding: 0 16px;
     font-size: 16px;
     border: none;
+    cursor: pointer;
 }
 .input__email{
     font-size: 16px;
     padding: 0 48px;
+    outline: none;
 }
 .contact__letter{
     position: absolute;
@@ -496,7 +501,7 @@ body{
     opacity: 0.6;
 }
 .footer__item-icon .footer__item-ic{
-    font-size: 6px;
+    font-size: 10px;
     padding: 8px 11px;
     border-radius: 50%;
     background-color: black;
@@ -507,7 +512,7 @@ body{
 .footer__item-icon .footer__item-ic:last-child{
     background-color: white;
     color: black;
-    padding: 9px 10px;
+    padding: 8px 10px;
 }
 .footer__body-list .footer__item-text{
     font-size: 16px;
@@ -539,7 +544,7 @@ body{
     overflow: hidden;
 }
 .footer__end .footer__end-icon img{
-    height: 30px;
+    height: 40px;
     width: auto;
 }
 
